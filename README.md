@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Dockerfiles: failure to copy the application code into the image. The original Dockerfile attempts to run a Python script, my_script.py, but this file is never added to the image.  The solution demonstrates the correct way to copy the file into the image and set the working directory.
